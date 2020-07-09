@@ -1,9 +1,9 @@
-What I did in this series:
+<h1>What I did in this series:</h1>
 
-Session 1: How to send an anonymous email from firebase to a user
-Session 2: How to handle the callback url and make a basic form
-Session 3: Make a NodeJS app, and finish the create user process
-Session 4: Dockerize the backend, and host frontend (ui)
+p1: Session 1: How to send an anonymous email from firebase to a user
+p2: Session 2: How to handle the callback url and make a basic form
+p3: Session 3: Make a NodeJS app, and finish the create user process
+p4: Session 4: Dockerize the backend, and host frontend (ui)
 
 For references: https://github.com/madthad91/internHacks2020CreateUserFlow
 
