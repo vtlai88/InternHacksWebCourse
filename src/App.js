@@ -10,8 +10,10 @@ import {
                             //npm install --save react-router-dom
 
                           
-import Dashboard from './Dashboard'
+import Dashboard from './Dashboard';
 import CreateUser from './CreateUser';
+import CreateUser2 from './CreateUser2';
+
 
 // This site has 3 pages, all of which are rendered
 // dynamically in the browser (not server rendered).
@@ -39,6 +41,9 @@ function App() {
           <li>
             <Link to="/dashboard">Dashboard</Link>
           </li>
+          {/* <li>
+            <Link to="/createUser2">Create User 2</Link>
+          </li> */}
         </ul>
 
         <hr />
@@ -63,10 +68,14 @@ function App() {
           <Route path="/dashboard">
             <Dashboard />
           </Route>
+          <Route path= "/createUser2">
+            <CreateUser2 />
+          </Route>
         </Switch>
       </div>
     </Router>
   );
+ 
 }
 
 // You can think of these components as "pages"

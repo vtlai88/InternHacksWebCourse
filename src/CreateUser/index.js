@@ -33,7 +33,7 @@ function test(){
     var actionCodeSettings = {
         // URL you want to redirect back to. The domain (www.example.com) for this
         // URL must be whitelisted in the Firebase Console.
-        url: 'https://authflow-e3de9.firebaseapp.com/finishSignUp?cartId=1234',
+        url: 'http://localhost:3000/createUser2?cartId=1234',
         // This must be true.
         handleCodeInApp: true
     }
