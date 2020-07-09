@@ -26,7 +26,6 @@ For references: https://github.com/madthad91/internHacks2020CreateUserFlow
 
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
