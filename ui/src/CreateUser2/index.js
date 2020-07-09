@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 
 
 class CreateUser2 extends Component{
@@ -23,10 +24,20 @@ class CreateUser2 extends Component{
 
 
     enrollUser = () => {
-        alert(this.state)
+        alert(JSON.stringify(this.state))
+
+        //Handling a Reponse https://blog.logrocket.com/how-to-make-http-requests-like-a-pro-with-axios/
+        //Once an HTTP request is made, Axios returns a promise that is either fulfilled or rejected, 
+        //depending on the response from the backend service. To handle the result, you can use the then() method like this:
+
+        axios.post('http://localhost:8080/createUser', this.state)
+          .then((response) => {
+            alert(response);
+          }, (error) => {
+            console.log(error);
+          });
+
     }
-
-
 
 
     render() {
@@ -49,10 +60,5 @@ class CreateUser2 extends Component{
         )
     }
 }
-
-
-
-
-
 
   export default CreateUser2;

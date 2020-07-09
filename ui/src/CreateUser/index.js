@@ -15,12 +15,12 @@ import "firebase/firestore";
 
 //initialize Firebase
 var config = {
-    apiKey: "AIzaSyBmmVCjz7OaZrHJRYcEmhegklplMJN1uDs",
-    authDomain: "authflow-e3de9.firebaseapp.com",
-    databaseURL: "https://authflow-e3de9.firebaseio.com",
-    projectId: "authflow-e3de9",
-    storageBucket: "authflow-e3de9.appspot.com",
-    messagingSenderId: "709307758188",
+  apiKey: "AIzaSyBmmVCjz7OaZrHJRYcEmhegklplMJN1uDs",
+  authDomain: "authflow-e3de9.firebaseapp.com",
+  databaseURL: "https://authflow-e3de9.firebaseio.com",
+  projectId: "authflow-e3de9",
+  storageBucket: "authflow-e3de9.appspot.com",
+  messagingSenderId: "709307758188"
   };
 firebase.initializeApp(config);
 
