@@ -7,13 +7,18 @@
 
 For references: https://github.com/madthad91/internHacks2020CreateUserFlow
 
-
 Software Engineer/Collaborator on Basics to Web Course at Internhacks2020
+
 2 week apprenticeship program where I assisted a Senior Engineer in building an entire web course from the ground up.
+
 ·     Lead in security by implementing an out-of-band create user flow using both firebase auth’s anonymous sign-in and standard create user
+
 ·     Lead in innovation by creating 2 custom npm scripts to automate deployment of the frontend and backend to the Heroku and surge cloud
+
 ·     Lead in refactoring by converting an only frontend project to a frontend and backend project
+
 ·     Leveraged docker to build a custom container, ship to the Heroku docker registry, and deploy to Heroku
+
 ·     Developed multiple nodeJS APIs to handle creating the user and others prototype APIs as an educational tool for the class itself
 
 
