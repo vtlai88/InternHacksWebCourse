@@ -11,20 +11,18 @@ require("firebase/firestore");
 
 // TODO: Replace the following with your app's Firebase project configuration
 var firebaseConfig = {
-  apiKey: "AIzaSyBmmVCjz7OaZrHJRYcEmhegklplMJN1uDs",
-  authDomain: "authflow-e3de9.firebaseapp.com",
-  databaseURL: "https://authflow-e3de9.firebaseio.com",
-  projectId: "authflow-e3de9",
-  storageBucket: "authflow-e3de9.appspot.com",
-  messagingSenderId: "709307758188"
+    apiKey: "AIzaSyBmmVCjz7OaZrHJRYcEmhegklplMJN1uDs",
+    authDomain: "authflow-e3de9.firebaseapp.com",
+    databaseURL: "https://authflow-e3de9.firebaseio.com",
+    projectId: "authflow-e3de9",
+    storageBucket: "authflow-e3de9.appspot.com",
+    messagingSenderId: "709307758188"
   };
   
   // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
 const port = 8080;
-// const lead = (port == 8080);
-// console.log(typeof lead);
 
 app.use(express.json());
 app.use(cors());
@@ -36,7 +34,9 @@ app.post('/createUser', (req, res) => {
         .catch();
 });
 
-app.get('/healthCheck', (req, res) => {
-  res.send('hello world');
-})
-app.listen(port);
+app.get('/healthCheck', (req, res) => res.send('hello world'));
+
+let portNumber = process.env.PORT || port;
+
+
+app.listen(portNumber, () =>console.log(`the server is listening on ${portNumber}`));
