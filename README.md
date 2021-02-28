@@ -5,7 +5,6 @@
 <p>Session 3: Make a NodeJS app, and finish the create user process</p>
 <p>Session 4: Dockerize the backend, and host frontend (ui)</p>
 
-For references: https://github.com/madthad91/internHacks2020CreateUserFlow
 
 
 
